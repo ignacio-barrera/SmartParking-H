@@ -1,7 +1,19 @@
 # Servidor para proyecto de Sensores
 
 ## Cliente
-- Para correr el script `python3 client.py`
+- Para correr el script, debe ser dentro del venv de Python, primero ejecutar:
+`
+source /venv/bin/activate
+`
+`
+sudo python client.py
+`
+
+- Para probar la camara
+`
+rpicam-hello
+`
+
 - Recordar configurar la IP y el puerto a donde se enviarán las imagenes.
 
 ## Servidor
